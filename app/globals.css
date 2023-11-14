@@ -21,14 +21,17 @@ select option {
     font-size: large;
 }
 button {
-    width: 90px;
+    min-width: 120px;
     height: 30px;
-    font-size: larger;
+    font-size: large;
+    font-weight: bolder;
     margin-left: 440px;
     background-color: transparent;
     border: 1px solid;
     cursor: pointer;
-    
+    white-space: nowrap;
+    background-color: bisque;
+    border-radius: 8px;
 }
 button:hover {
 background-color: #dadada;

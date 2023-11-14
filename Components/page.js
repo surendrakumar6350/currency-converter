@@ -1,8 +1,9 @@
 "use client"
 import React, { useState } from 'react'
 
-export const Showme = ({keys, currency, tocurrency, oncurrencychange, ans, result, kuchb}) => {
-  
+export const Showme = ({keys, currency, tocurrency, oncurrencychange, ans, result, kuchb, btn1, btn2}) => {
+const nav1 = btn1.toUpperCase()
+const nav2 = btn2.toUpperCase()
   return (
     <>
     <input className='ankit' onChange={oncurrencychange}/>
@@ -21,7 +22,7 @@ export const Showme = ({keys, currency, tocurrency, oncurrencychange, ans, resul
     <br></br>
 
     <button onClick={result}>
-      convert 
+      convert {nav1} to {nav2}
     </button>
   
     </>
