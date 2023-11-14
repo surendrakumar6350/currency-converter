@@ -27,6 +27,8 @@ const keys = Object.keys(data)
    tocurrency={(e)=> settocurrency(e.target.value)}
    oncurrencychange={(e)=> setoncurrencychange(e.target.value)}
    ans={ans} result={result} kuchb={kuchb}
+   btn1={currency}
+   btn2={tocurrency}
    />
    <br></br>
    <br></br>
