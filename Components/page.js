@@ -7,7 +7,7 @@ const nav2 = btn2.toUpperCase()
   return (
     <>
     <input className='ankit' onChange={oncurrencychange}/>
-    <select onClick={kuchb} onChange={currency}>
+    <select value={btn1} onClick={kuchb} onChange={currency}>
       {keys.map((e)=> <option value={e}>{e}</option>)}
     </select>
     <br></br>
@@ -15,7 +15,7 @@ const nav2 = btn2.toUpperCase()
     
 
 <input className='ankit' value={ans}/>
-    <select onClick={kuchb} onChange={tocurrency}>
+    <select value={btn2} onClick={kuchb} onChange={tocurrency}>
     {keys.map((e)=> <option value={e}>{e}</option>)}
     </select>
     <br></br>
