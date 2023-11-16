@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Showme } from '@/Components/page'
 import useCurrencyInfo from '@/folder/page'
+import Link from 'next/link'
 
 const app = () => {
   const [currency, setcurrency] = useState("aave")
@@ -33,6 +34,7 @@ const keys = Object.keys(data)
    <br></br>
    <br></br>
    <p className='p'>{err}</p>
+   <Link href="PP"> Privacy and Policy</Link>
     </>
   )
 }
