@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <script src="https://alwingulla.com/88/tag.min.js" data-zone="97268" async data-cfasync="false"></script>
     </html>
   )
 }
